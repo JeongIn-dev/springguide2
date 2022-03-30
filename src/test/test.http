@@ -1,0 +1,10 @@
+POST http://localhost:8081/customer
+Content-Type: application/json
+
+{
+  "firstName": "jeongin",
+  "lastName": "lee"
+}
+
+###
+GET http://localhost:8081/customer?firstName=jeongin
